@@ -10,3 +10,6 @@ print(3 *(3+1))
 
 print('작은 따옴표')
 print("콘 따옴표")
+
+print( 5> 10)
+print(5 < 10)
