@@ -50,3 +50,15 @@ print(type(3)) #정수
 print(type("3")) #문자열
 print(type(3.5)) #실수
 print(type(str(3))) #정수를 문자열로 형변환
+
+"""주석
+"""
+
+    
+station = "사당"
+# print(station)
+print(str(station) + "행 열차가 들어오고 있습니다.")
+station = "신도림"
+print(station + "행 열차가 들어오고 있습니다.")
+station = "인천공항"
+print(station + "행 열차가 들어오고 있습니다.")
