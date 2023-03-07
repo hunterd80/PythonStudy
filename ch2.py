@@ -37,3 +37,16 @@ is_male = True
 
 print("우리 집 반려 동물은 " ,animal, "인데, 이름이 " , name , "예요")
 print(name , "는 " ,str(age), "살이고, " , hobby , "을 아주 좋하해요")
+
+print(int(3.5))
+
+print(float("3.5"))
+print(float(3))
+
+print(str(3)+"입니다.")
+print(str(3.5)+"입니다.")
+
+print(type(3)) #정수
+print(type("3")) #문자열
+print(type(3.5)) #실수
+print(type(str(3))) #정수를 문자열로 형변환
