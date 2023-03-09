@@ -86,6 +86,6 @@ print(randint(1,45))
 
 print("오프라인 스터디 모임 날짜는 매월" ,int((random()*26)+2),"일로 선정됬습니다.")
 
-study_day = randrange(4,28)
+study_day = randrange(4,29)
 #print(study_day)
 print("오프라인 스터디 모임 날짜는 매월 " +str(study_day)+"일로 선정됬습니다.")
