@@ -18,3 +18,5 @@ print("일 :" , jumin[4:6])
 print("생년월일 : "+jumin[:6])
 print("주민등록번호 뒷자리 : "+ jumin[7:])
 print("주민등록번호 뒷자리 : "+ jumin[-7:])
+
+
