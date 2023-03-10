@@ -20,3 +20,28 @@ print("주민등록번호 뒷자리 : "+ jumin[7:])
 print("주민등록번호 뒷자리 : "+ jumin[-7:])
 
 
+python = "Python is Amazing"
+print(python.lower())
+print(python.upper())
+print(python[0].isupper())
+print(python[1:3].islower())
+print(python.replace("Python","java"))
+
+find = python.find("n")
+print(find)
+find = python.find("n", find+1)
+print(find)
+find = python.find("java")
+print(find)
+
+index = python.index("n")
+print(index)
+index = python.index("n",index+1)
+print(index)
+# index = python.index("java")
+# print(index)
+
+print(python.count("n"))
+print(python.count("v"))
+
+print(len(python))
