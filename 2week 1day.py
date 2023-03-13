@@ -17,3 +17,5 @@ print(subway)
 
 subway.clear()
 print(subway)
+
+print(subway)
