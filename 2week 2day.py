@@ -36,5 +36,17 @@ print(python)
 java.remove("피그렛")
 print(java)
 
+menu = {"커피", "우유", "쥬스"}
+print(menu)
+print(type(menu))
+
+menu = list(menu)
+print(menu, type(menu))
+
+menu = tuple(menu)
+print(menu, type(menu))
+
+menu = set(menu)
+print(menu, type(menu))
 
 
