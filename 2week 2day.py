@@ -20,3 +20,19 @@ print(my_set)
 
 java = {"푸", "피그렛", "티거"}
 python = set(["푸", "이요르"])
+
+print(java & python)
+print(java.intersection(python))
+
+print(java | python)
+print(java.union(python))
+
+print(java - python)
+print(java.difference(python))
+
+python.add("피그렛")
+print(python)
+
+java.remove("피그렛")
+print(java)
+
