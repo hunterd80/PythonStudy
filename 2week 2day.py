@@ -50,3 +50,14 @@ menu = set(menu)
 print(menu, type(menu))
 
 
+import random
+
+id = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+
+random.shuffle(id)
+dang = random.sample(id, 4)
+
+
+print("치킨" , dang[0])
+print("커피" , dang[1:])
+
