@@ -66,7 +66,6 @@ for sonnim  in range(1,51):
         count += 1
     else:
         print("[] {0} 번째 손님(소요시간 : {1}분)".format(sonnim, time))
-print("총 탑슨객 : {}명".format(count))
-    
+print("총 탑슨객 : {}명".format(count))   
                  
     
