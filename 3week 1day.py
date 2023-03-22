@@ -31,11 +31,36 @@ print("--------------------")
 
 def profile3(name, age, *language):
     print("이름 : {0}\t나이 : {1}\t".format(name, age), end ="")
+    
     # #print(language, type(language))
     for lang in language:
-        print(lang, end="")
-    print=("")
+        print(lang, end=" ")
+    print()
 
 profile3("찰리", 20, "파이썬", "자바", "c", "c++", "c#", "자바스크립트")
 profile3("루시", 25, "코틀린", "스위프트")
+
+print()
+
+glasses = 10
+
+def rent(people):
+    global glasses 
+    glasses = glasses - people
+    print("[함수내부] 남은 3d 안경 개수 : {0}".format(glasses))
+
+print("전체 3d 안경 개수 : {0}".format(glasses))
+rent(2)
+print("남은 3d 안경 개수 : {0}".format(glasses))
+
+print()
+glasses = 10
+
+def rent_return(glasses, people):
+    glasses = glasses - people
+    print("[함수내부] 남은 3d 안경 개수 : {0}".format(glasses))
+    return glasses
+print("전체 3d 안경 개수 : {0}".format(glasses))
+glasses = rent_return(glasses, 2)
+print("남은 3d 안경 개수 : {0}".format(glasses))
 
