@@ -64,3 +64,17 @@ print("전체 3d 안경 개수 : {0}".format(glasses))
 glasses = rent_return(glasses, 2)
 print("남은 3d 안경 개수 : {0}".format(glasses))
 
+
+def std_weight(height, gender):
+    if gender == "남자":
+        print("키 {0}cm 남자의 표준 체중은 {1}kg 입니다.".format(height*100, round(height * height * 22,2)))
+              
+    elif gender == "여자":
+        print("키 {0}cm 여자의 표준 체중은 {1}kg 입니다.".format(height*100, round(height * height * 21,2)))
+        
+kk=float(input("키는 몇 미터"))
+sex = str(input("성별 남자?여자?"))
+# print(kk)
+# print(sex)
+
+std_weight(kk, sex)
