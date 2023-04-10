@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b_(6ehn)=nsh*)$l34jd-(o3h-!s=6uk8%la$on(d^41f$zw4l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'photo',
 ]
-TIME_ZONE = 'Asia/Seoul'
+# TIME_ZONE = 'Asia/Seoul'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
