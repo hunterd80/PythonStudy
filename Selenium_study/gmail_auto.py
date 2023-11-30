@@ -17,6 +17,6 @@ action = ActionChains(driver)
 
 
 driver.find_element(By.CSS_SELECTOR,"[class='gb_za gb_jd gb_Ld gb_ie']").click()
-#driver.find_element(By.LINK_TEXT,"로그인").click
+#driver.find_element(By.LINK_TEXT,"로그인")
    
 # class="gb_za gb_jd gb_Ld gb_ie" 클래스 명
